@@ -1,0 +1,264 @@
+/*  */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+
+.red{
+    color: red;
+}
+
+/* top part & down part */
+
+.top-part{
+    
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    
+}
+
+.down-part{
+    
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    margin-top: 120px;
+    
+}
+
+/* sections of top part */
+/* top part img */
+
+.img-1{
+    
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.img-2{
+    
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+
+.img-3{
+    
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*part sconti */
+
+.sconto1{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+.sconto1v{
+    background-color: rgb(0, 161, 0);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 130px;
+    left: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+.sconto2{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+.sconto2v{
+    background-color: rgb(0, 161, 0);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+/* top part img hover */
+
+.img-1:hover{
+    background-image: url(../img/1-hover.webp);
+    background-size: cover;
+}
+
+.img-2:hover{
+    background-image: url(../img/2-hover.webp);
+    background-size: cover;
+}
+
+.img-3:hover{
+    background-image: url(../img/3-hover.webp);
+    background-size: cover;
+}
+
+/* top part text */
+
+.img1-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.img2-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+}
+
+.img3-text{
+    background-color: rgb(59, 148, 0);
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.testoverde{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+/* sections of down part */
+/* down part img */
+
+.img-4{
+    
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+
+.img-5{
+    
+    background-image: url(../img/5.webp);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+
+.img-6{
+    
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* down part img hover */
+
+.img-4:hover{
+    background-image: url(../img/4-hover.webp);
+    background-size: cover;
+}
+
+.img-5:hover{
+    background-image: url(../img/5-hover.webp);
+    background-size: cover;
+}
+
+.img-6:hover{
+    background-image: url(../img/6-hover.webp);
+    background-size: cover;
+}
+
+/* down part text */
+
+.img4-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.img5-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+}
+
+.img6-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* heart */
+
+.heart1{
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
